@@ -2,8 +2,14 @@
 @import "./mixins";
 @import "./keyframes";
 @import "./base";
+@import "./grid";
 
+@import "./components/button";
+@import "./components/title";
+@import "./components/accordion";
+
+@import "./components/header";
 @import "./components/intro";
-@import "./components/about";
-@import "./components/product-list";
-@import "./components/product";
+@import "./components/projects";
+@import "./components/content-creation";
+@import "./components/about-me";

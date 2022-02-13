@@ -1,0 +1,23 @@
+.content-creation {
+  padding-bottom: 100px;
+  .title {
+    margin-bottom: 100px;
+    padding-bottom: 30px;
+  }
+
+  &__txt {
+    font-size: 30px;
+    padding-right: 50px;
+  }
+
+  &__btn {
+    .btn {
+      font-size: 30px;
+      background-color: transparent;
+      color: #333;
+      padding: 0;
+      border-bottom: 1px solid #333;
+      border-radius: 0;
+    }
+  }
+}

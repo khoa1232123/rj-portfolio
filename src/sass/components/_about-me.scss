@@ -1,0 +1,13 @@
+.about-me {
+  .title {
+    margin-bottom: 100px;
+    padding-bottom: 30px;
+  }
+
+  &__txt {
+    p {
+      font-size: 30px;
+      margin-bottom: 20px;
+    }
+  }
+}

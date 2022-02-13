@@ -1,0 +1,20 @@
+.accordion {
+  &__header {
+    @include flex(center, space-between);
+    padding: 10px 0;
+    font-size: 30px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid var(--gray-dark);
+  }
+
+  &__content {
+    font-size: 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: 500ms;
+  }
+
+  &__item.active &__content {
+    max-height: 200px;
+  }
+}

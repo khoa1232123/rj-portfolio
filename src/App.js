@@ -1,12 +1,16 @@
 import "./App.css";
-import { About, Intro, ProductList } from "./components";
+import { AboutMe, ContentCreation, Intro } from "./components";
+import Header from "./components/Header";
+import Projects from "./components/Projects";
 
 function App() {
   return (
-    <div className="App">
+    <div className="bg-light">
+      <Header />
       <Intro />
-      <About />
-      <ProductList />
+      <Projects />
+      <ContentCreation />
+      <AboutMe />
     </div>
   );
 }
