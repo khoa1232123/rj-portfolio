@@ -1,0 +1,36 @@
+.client-say {
+  .title {
+    margin-bottom: 100px;
+    padding-bottom: 30px;
+  }
+
+  &__list {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+  }
+
+  &__item {
+    text-align: center;
+  }
+
+  &__content {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  &__author {
+    text-align: center;
+    &__name {
+      font-size: 25px;
+      text-transform: capitalize;
+      text-align: center;
+    }
+    &__desc {
+      font-size: 25px;
+      font-style: italic;
+      text-align: center;
+    }
+  }
+}

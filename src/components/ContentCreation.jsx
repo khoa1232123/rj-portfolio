@@ -1,5 +1,6 @@
 import React from "react";
 import { Button, IkoCol, IkoContainer, IkoRow, Title } from "./iko";
+import award from "../imgs/award.jpg";
 
 const ContentCreation = () => {
   return (
@@ -10,7 +11,7 @@ const ContentCreation = () => {
         </IkoCol>
       </IkoRow>
       <IkoRow>
-        <IkoCol>
+        <IkoCol col={6}>
           <div className="content-creation__content">
             <div className="content-creation__txt">
               Join my YouTube channel where I show my design thinking, my
@@ -23,9 +24,9 @@ const ContentCreation = () => {
             </div>
           </div>
         </IkoCol>
-        <IkoCol>
+        <IkoCol col={6}>
           <div className="content-creation__img">
-            <img src="" alt="" />
+            <img src={award} alt="" />
           </div>
         </IkoCol>
       </IkoRow>

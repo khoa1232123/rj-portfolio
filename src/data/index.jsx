@@ -37,3 +37,24 @@ export const accordion = [
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus fugiat harum ipsum unde voluptatibus quasi fuga, nihil similique illum voluptatum sint, cupiditate error? Labore, aliquid quam qui voluptas provident illum.",
   },
 ];
+
+export const clients = [
+  {
+    content:
+      "“I rehired Arnau to do some additional design work for my private label brand. Again, he was creative and efficient in bringing my ideas to fruition. Thanks Arnau”",
+    authorName: "rolando dovanhshi",
+    authorDesc: "CEO",
+  },
+  {
+    content:
+      "“I rehired Arnau to do some additional design work for my private label brand. Again, he was creative and efficient in bringing my ideas to fruition. Thanks Arnau”",
+    authorName: "Messi kapity",
+    authorDesc: "Manager",
+  },
+  {
+    content:
+      "“I rehired Arnau to do some additional design work for my private label brand. Again, he was creative and efficient in bringing my ideas to fruition. Thanks Arnau”",
+    authorName: "leolatdo kabio",
+    authorDesc: "Staff",
+  },
+];

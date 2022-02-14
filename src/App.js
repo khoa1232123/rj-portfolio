@@ -1,5 +1,5 @@
 import "./App.css";
-import { AboutMe, ContentCreation, Intro } from "./components";
+import { AboutMe, ClientSay, ContentCreation, Intro } from "./components";
 import Header from "./components/Header";
 import Projects from "./components/Projects";
 
@@ -11,6 +11,7 @@ function App() {
       <Projects />
       <ContentCreation />
       <AboutMe />
+      <ClientSay />
     </div>
   );
 }

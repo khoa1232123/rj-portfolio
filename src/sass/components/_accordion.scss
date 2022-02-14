@@ -5,6 +5,11 @@
     font-size: 30px;
     margin-bottom: 10px;
     border-bottom: 1px solid var(--gray-dark);
+    cursor: pointer;
+  }
+
+  &__icon i {
+    transition: 300ms;
   }
 
   &__content {
@@ -15,6 +20,10 @@
   }
 
   &__item.active &__content {
-    max-height: 200px;
+    max-height: 100px;
+  }
+
+  &__item.active &__icon i {
+    transform: rotate(180deg);
   }
 }
