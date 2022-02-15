@@ -5,3 +5,6 @@ export { default as Projects } from "./Projects";
 export { default as ContentCreation } from "./ContentCreation";
 export { default as AboutMe } from "./AboutMe";
 export { default as ClientSay } from "./ClientSay";
+export { default as SayHello } from "./SayHello";
+export { default as Newletter } from "./Newletter";
+export { default as Footer } from "./Footer";

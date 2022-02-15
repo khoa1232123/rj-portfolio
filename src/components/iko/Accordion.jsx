@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { accordion } from "../../data";
 
-const AccordionItem = ({ item }) => {
+const AccordionItem = ({ item, itemActive }) => {
   const [active, setActive] = useState(false);
 
   return (

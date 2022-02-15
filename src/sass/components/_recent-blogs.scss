@@ -1,0 +1,40 @@
+.recent-blogs {
+  padding-bottom: 150px;
+  .title {
+    margin-bottom: 100px;
+    padding-bottom: 30px;
+    text-align: center;
+    padding-top: 65px;
+    border-top: 1px solid #333;
+  }
+
+  &__list {
+    padding: 0 10%;
+  }
+
+  &__item ~ &__item {
+    border-left: 1px solid #333;
+  }
+
+  &__content {
+    padding: 0 0 30px 30px;
+  }
+
+  &__title {
+    font-size: 20px;
+    margin-bottom: 25px;
+  }
+
+  &__date {
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+
+  &__btn {
+    button {
+      i {
+        margin-left: 10px;
+      }
+    }
+  }
+}

@@ -33,9 +33,9 @@ const Button = ({
 
   return (
     <button className={classTxt} onClick={onClick} {...props}>
-      {icon && !iconRight ? <i className="icon"></i> : null}
+      {icon && !iconRight ? <i className={icon}></i> : null}
       <span className="btn__txt">{children}</span>
-      {icon && iconRight ? <i className="icon"></i> : null}
+      {icon && iconRight ? <i className={icon}></i> : null}
     </button>
   );
 };

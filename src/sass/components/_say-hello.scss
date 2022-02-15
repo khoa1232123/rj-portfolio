@@ -1,0 +1,44 @@
+.say-hello {
+  padding-bottom: 150px;
+
+  .title {
+    margin-bottom: 100px;
+    padding-bottom: 30px;
+  }
+
+  &__txt {
+    p {
+      font-size: 30px;
+      margin-bottom: 30px;
+    }
+  }
+
+  &__form {
+    &__label {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+
+    &__input {
+      margin-bottom: 20px;
+      input {
+        width: 100%;
+        font-size: 20px;
+        height: 45px;
+        padding: 0 10px;
+      }
+      textarea {
+        width: 100%;
+        font-size: 20px;
+        height: 150px;
+        padding: 10px;
+      }
+    }
+    &__submit {
+      button {
+        padding-left: 25px;
+        padding-right: 25px;
+      }
+    }
+  }
+}

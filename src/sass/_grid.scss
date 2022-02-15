@@ -27,6 +27,8 @@
 
   > .iko-col {
     flex: 1;
+    padding-left: var(--iko-col);
+    padding-right: var(--iko-col);
   }
   @each $val in $numbers {
     > .iko-col-#{$val} {

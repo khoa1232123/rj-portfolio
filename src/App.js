@@ -1,7 +1,16 @@
 import "./App.css";
-import { AboutMe, ClientSay, ContentCreation, Intro } from "./components";
+import {
+  AboutMe,
+  ClientSay,
+  ContentCreation,
+  Footer,
+  Intro,
+  Newletter,
+  SayHello,
+} from "./components";
 import Header from "./components/Header";
 import Projects from "./components/Projects";
+import RecentBlogs from "./components/RecentBlogs";
 
 function App() {
   return (
@@ -12,6 +21,10 @@ function App() {
       <ContentCreation />
       <AboutMe />
       <ClientSay />
+      <SayHello />
+      <RecentBlogs />
+      <Newletter />
+      <Footer />
     </div>
   );
 }

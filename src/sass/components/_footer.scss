@@ -1,0 +1,50 @@
+.footer {
+  height: 100px;
+  border-top: 2px solid #333;
+
+  .iko-row {
+    height: 100%;
+    align-items: center;
+  }
+
+  &__left {
+    @include flex(center, flex-start);
+  }
+
+  &__logo {
+    .logo {
+      font-size: 48px;
+      font-weight: 900;
+      font-size: 38px;
+      background: -webkit-linear-gradient(var(--blue-color), rgb(10, 145, 255));
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+
+  &__copyright {
+    margin-left: 20px;
+    font-size: 15px;
+    color: var(--gray);
+  }
+
+  &__right {
+    @include flex(center, flex-end);
+  }
+
+  &__social {
+    @include flex(center, center);
+
+    &__item {
+      font-size: 20px;
+      width: 20px;
+      height: 20px;
+      text-align: center;
+      line-height: 20px;
+    }
+
+    &__item ~ &__item {
+      margin-left: 20px;
+    }
+  }
+}

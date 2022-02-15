@@ -58,3 +58,21 @@ export const clients = [
     authorDesc: "Staff",
   },
 ];
+
+export const blogs = [
+  {
+    title: "The ULTIMATE Figma UI Kit (Tailwind-Figma)",
+    date: "24.09.21",
+    link: "/",
+  },
+  {
+    title: "The ULTIMATE Figma UI Kit (Tailwind-Figma)",
+    date: "24.09.21",
+    link: "/",
+  },
+  {
+    title: "The ULTIMATE Figma UI Kit (Tailwind-Figma)",
+    date: "24.09.21",
+    link: "/",
+  },
+];
