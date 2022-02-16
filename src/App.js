@@ -1,31 +1,23 @@
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
-import {
-  AboutMe,
-  ClientSay,
-  ContentCreation,
-  Footer,
-  Intro,
-  Newletter,
-  SayHello,
-} from "./components";
-import Header from "./components/Header";
-import Projects from "./components/Projects";
-import RecentBlogs from "./components/RecentBlogs";
+import { Layout } from "./components";
+import AboutUs from "./Views/AboutUs";
+import Contact from "./Views/Contact";
+import Home from "./Views/Home";
+import ProjectDetail from "./Views/ProjectDetail";
 
 function App() {
   return (
-    <div className="bg-light">
-      <Header />
-      <Intro />
-      <Projects />
-      <ContentCreation />
-      <AboutMe />
-      <ClientSay />
-      <SayHello />
-      <RecentBlogs />
-      <Newletter />
-      <Footer />
-    </div>
+    <BrowserRouter>
+      <Layout>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/project-detail" element={<ProjectDetail />} />
+          <Route path="/about" element={<AboutUs />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </Layout>
+    </BrowserRouter>
   );
 }
 

@@ -1,8 +1,9 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { IkoCol, IkoContainer, IkoRow } from "./iko";
 import Button from "./iko/Button";
 
-const Header = () => {
+const Header = ({ darkmode, setDarkmode }) => {
   return (
     <header>
       <IkoContainer fluid className="header">
@@ -10,22 +11,28 @@ const Header = () => {
           <IkoCol col={3}>
             <div className="header__left">
               <div className="header__logo">
-                <a href="/">
+                <Link to="/">
                   <div className="logo">iKo</div>
-                </a>
+                </Link>
               </div>
             </div>
           </IkoCol>
           <IkoCol col={9}>
             <div className="header__right">
               <div className="header__menu">
-                <div className="header__menu__item">Work</div>
-                <div className="header__menu__item">About</div>
-                <div className="header__menu__item">Contact</div>
+                <div className="header__menu__item">
+                  <Link to="/project-detail">Work</Link>
+                </div>
+                <div className="header__menu__item">
+                  <Link to="/about">About</Link>
+                </div>
+                <div className="header__menu__item">
+                  <Link to="/contact">Contact</Link>
+                </div>
                 <div className="header__menu__item">Other</div>
               </div>
               <div className="header__darkmode">
-                <Button>Darkmode</Button>
+                <Button onClick={() => setDarkmode(!darkmode)}>Darkmode</Button>
               </div>
             </div>
           </IkoCol>

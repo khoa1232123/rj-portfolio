@@ -4,8 +4,10 @@
     padding: 10px 0;
     font-size: 30px;
     margin-bottom: 10px;
+    margin-top: 10px;
     border-bottom: 1px solid var(--gray-dark);
     cursor: pointer;
+    color: var(--black);
   }
 
   &__icon i {
@@ -17,6 +19,7 @@
     max-height: 0;
     overflow: hidden;
     transition: 500ms;
+    color: var(--black);
   }
 
   &__item.active &__content {

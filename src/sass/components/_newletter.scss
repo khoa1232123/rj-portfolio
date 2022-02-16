@@ -1,6 +1,6 @@
 .newletter {
   padding: 60px 30% 60px 30%;
-  border-top: 1px solid #333;
+  border-top: 1px solid var(--dark);
 
   .title {
     text-align: center;
@@ -11,6 +11,8 @@
     font-size: 20px;
     margin-bottom: 20px;
     text-align: center;
+    color: var(--dark);
+
     &.bottom {
       color: var(--gray);
       font-size: 15px;
@@ -21,6 +23,7 @@
     &__label {
       font-size: 20px;
       margin-bottom: 10px;
+      color: var(--dark);
     }
 
     &__input {
@@ -30,14 +33,19 @@
         font-size: 20px;
         height: 45px;
         padding: 0 10px;
+        background-color: transparent;
+        border: 1px solid var(--dark);
+        color: var(--dark);
         border-radius: 5px;
-        border: 1px solid #333;
       }
       textarea {
         width: 100%;
         font-size: 20px;
         height: 150px;
         padding: 10px;
+        background-color: transparent;
+        border: 1px solid var(--dark);
+        color: var(--dark);
       }
     }
     &__submit {

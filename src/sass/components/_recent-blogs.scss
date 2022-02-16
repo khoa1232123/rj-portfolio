@@ -5,7 +5,7 @@
     padding-bottom: 30px;
     text-align: center;
     padding-top: 65px;
-    border-top: 1px solid #333;
+    border-top: 1px solid var(--dark);
   }
 
   &__list {
@@ -13,7 +13,7 @@
   }
 
   &__item ~ &__item {
-    border-left: 1px solid #333;
+    border-left: 1px solid var(--dark);
   }
 
   &__content {
@@ -23,11 +23,13 @@
   &__title {
     font-size: 20px;
     margin-bottom: 25px;
+    color: var(--black);
   }
 
   &__date {
     font-size: 15px;
     margin-bottom: 20px;
+    color: var(--dark);
   }
 
   &__btn {

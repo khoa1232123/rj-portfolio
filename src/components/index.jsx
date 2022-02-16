@@ -8,3 +8,5 @@ export { default as ClientSay } from "./ClientSay";
 export { default as SayHello } from "./SayHello";
 export { default as Newletter } from "./Newletter";
 export { default as Footer } from "./Footer";
+export { default as Layout } from "./Layout";
+export { default as RecentBlogs } from "./RecentBlogs";

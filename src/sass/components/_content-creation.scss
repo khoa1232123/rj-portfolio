@@ -9,6 +9,7 @@
     font-size: 30px;
     padding-right: 50px;
     margin-bottom: 30px;
+    color: var(--black);
   }
 
   &__content {
@@ -21,9 +22,9 @@
     .btn {
       font-size: 30px;
       background-color: transparent;
-      color: #333;
+      color: var(--dark);
       padding: 0;
-      border-bottom: 1px solid #333;
+      border-bottom: 1px solid var(--dark);
       border-radius: 0;
     }
   }

@@ -7,6 +7,8 @@ export const projects = [
     name: "01 demo",
     img: project01,
     url: "/",
+    content:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna feugiat maecenas eu imperdiet varius nec pulvinar sem ultrices. Adipiscing viverra mauris, nunc nisl sociis dui. Sagittis, curabitur libero urna interdum metus.",
   },
   {
     name: "02 demo",

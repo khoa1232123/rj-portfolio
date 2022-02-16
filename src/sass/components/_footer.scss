@@ -1,6 +1,6 @@
 .footer {
   height: 100px;
-  border-top: 2px solid #333;
+  border-top: 2px solid var(--dark);
 
   .iko-row {
     height: 100%;
@@ -25,7 +25,7 @@
   &__copyright {
     margin-left: 20px;
     font-size: 15px;
-    color: var(--gray);
+    color: var(--dark);
   }
 
   &__right {
@@ -41,6 +41,7 @@
       height: 20px;
       text-align: center;
       line-height: 20px;
+      color: var(--dark);
     }
 
     &__item ~ &__item {

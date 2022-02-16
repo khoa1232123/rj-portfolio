@@ -1,7 +1,8 @@
 import React from "react";
 import { Accordion, IkoCol, IkoContainer, IkoRow, Title } from "./iko";
+import imgIntro from "../imgs/intro.jpg";
 
-const AboutMe = () => {
+const AboutMe = ({ showImg }) => {
   return (
     <IkoContainer fluid className="about-me">
       <IkoRow>
@@ -27,9 +28,15 @@ const AboutMe = () => {
           </div>
         </IkoCol>
         <IkoCol>
-          <div className="about-me__accordion">
-            <Accordion />
-          </div>
+          {showImg ? (
+            <div className="about-me__img">
+              <img src={imgIntro} alt="" />
+            </div>
+          ) : (
+            <div className="about-me__accordion">
+              <Accordion />
+            </div>
+          )}
         </IkoCol>
       </IkoRow>
     </IkoContainer>
